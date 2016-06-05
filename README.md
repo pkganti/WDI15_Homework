@@ -9,10 +9,10 @@
 - **Clone your forked repository to your local computer**
     + Make sure you're browser is open to your forked version of this repository on Github (eg [http://github.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
     + Hit the **Clone or Download** button in the top right-hand corner of the page.
-    + Open your computer's terminal to the directory in which you would look to store your homework.
+    + Open your computer's terminal to the directory in which you intend to store your homework.
     + `git clone url_of_your_fork_on_github`
 - **Add an upstream**
-    +  *This links your the local repository on your computer to this repository on Github*
+    +  *This links the local repository on your computer to this repository on Github*
     + `cd WDI15_Homework`
     + `git remote add upstream https://github.com/cjbarnaby/WDI15_Homework`
     + `git pull upstream master`
@@ -25,7 +25,7 @@
 - **Push your changes to your forked repository**
     + `git pull`
     + `git push origin master`
-- **Submit a pull request for me to accept your homework**
+- **Once you're finished, submit a pull request for me to accept your homework**
     + Navigate to your forked version of this repository on Github (eg [https://github.com/{{YOUR_USERNAME_HERE}}/WDI15_Homework](https://github.com/{{YOUR_USERNAME_HERE}}/WDI15_Homework)).
     + Hit the **Pull request** button.
     + Make sure the destination for the pull request is set to my repository.
