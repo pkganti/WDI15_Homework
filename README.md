@@ -7,7 +7,7 @@
     + *This creates a personal, 'forked' copy of this repository on your Github account.*  
     + Hit the **Fork** button in the top right-hand corner of this page.
 - **Clone your forked repository to your local computer**
-    + Make sure you're browser is open to your forked version of this repository on Github (eg [http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
+    + Make sure you're browser is open to your forked version of this repository on Github (eg [http://github.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
     + Hit the **Clone or Download** button in the top right-hand corner of the page.
     + Open your computer's terminal to the directory in which you would look to store your homework.
     + `git clone url_of_your_fork_on_github`
