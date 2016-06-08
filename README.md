@@ -11,9 +11,9 @@ You only need to do this once, not every time you're submitting homework!
 - **Clone your forked repository to your computer**
     + *'Cloning' takes your 'forked' repository on GitHub and creates a local copy - or 'clone' - on your computer.*
     + Make sure you're browser is open to **your** forked version of this repository on Github (eg [http://github.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
-    + Hit the **Clone or Download** button in the top right-hand corner of the page.
+    + Hit the **Clone or Download** button in the top right-hand corner of the page and copy the URL to your clipboard.
     + Open your computer's terminal to the directory in which you intend to store your homework.
-    + `git clone url_of_your_fork_on_github`
+    + `git clone url_of_your_fork_on_github` (where `url_of_your_fork_on_github` is the URL you copied after hitting 'Clone or Download', above).
 - **Add an upstream remote repository**
     +  *Creating an upstream repository links the local repository on your computer to this repository on Github*
     + `cd WDI15_Homework`
@@ -37,7 +37,7 @@ You need to do this every time you're submitting homework.
 
 - **Commit your work to your local repository progressively**
     + `git add .`
-    + `git commit -m "YOUR_COMMIT_MESSAGE_GOES_HERE"`
+    + `git commit -m "YOUR_COMMIT_MESSAGE_GOES_HERE"`(where `YOUR_COMMIT_MESSAGE_GOES_HERE` is your description of the work you are committing)
 - **Push your changes to your forked repository**
     + `git pull`
     + `git push origin master`
