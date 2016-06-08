@@ -6,16 +6,16 @@
 You only need to do this once, not every time you're submitting homework!
 
 - **Fork this repository**
-    + *This creates a personal, 'forked' copy of this repository on your Github account.*  
+    + *'Forking' creates a personal, 'forked' copy of this repository on your Github account.*  
     + Hit the **Fork** button in the top right-hand corner of this page.
 - **Clone your forked repository to your computer**
-    + *This takes your 'forked' repository on GitHub and creates a "local" copy - or 'clone' - on your computer.*
-    + Make sure you're browser is open to your forked version of this repository on Github (eg [http://github.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
+    + *'Cloning' takes your 'forked' repository on GitHub and creates a local copy - or 'clone' - on your computer.*
+    + Make sure you're browser is open to **your** forked version of this repository on Github (eg [http://github.com/{{YOUR_USERNAME}}/WDI15_Homework](http://hithub.com/{{YOUR_USERNAME}}/WDI15_Homework)).
     + Hit the **Clone or Download** button in the top right-hand corner of the page.
     + Open your computer's terminal to the directory in which you intend to store your homework.
     + `git clone url_of_your_fork_on_github`
-- **Add an upstream**
-    +  *This links the local repository on your computer to this repository on Github*
+- **Add an upstream remote repository**
+    +  *Creating an upstream repository links the local repository on your computer to this repository on Github*
     + `cd WDI15_Homework`
     + `git remote add upstream https://github.com/cjbarnaby/WDI15_Homework`
     + `git pull upstream master`
@@ -51,4 +51,4 @@ You need to do this every time you're submitting homework.
         + Is there anything that you'd like some further information on?;
         + Roughly how long did it take?
 
-If you don't mention anything in the comments, we will assume you had no problems at all with it!
+If you don't mention anything in the Pull Request comments, we will assume you had no problems at all with it!
