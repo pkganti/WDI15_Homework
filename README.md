@@ -1,6 +1,10 @@
 # WDI-15 ([General Assembly, Sydney](https://generalassemb.ly/sydney))
 ##Homework Repository
 
+1. Repository Setup;
+2. Do Your Homework;
+3. Submit Your Homework.
+
 ### Repository Setup
 
 You only need to do this once, not every time you're submitting homework!
@@ -31,7 +35,7 @@ You should put each night's homework in a new folder within the appropriate dire
 5. Create the files necessary to complete the homework in their respective directories;
 6. Get to it!
 
-### Add Your Homework
+### Submit Your Homework
 
 You need to do this every time you're submitting homework.
 
