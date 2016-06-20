@@ -1,0 +1,21 @@
+.catwalk {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+.catty {
+  /*position: fixed;*/
+  top: 0px;
+  right: 0px;
+  height: 1px;
+  width: 1px;
+
+}
+body {
+  /*background-color: blue;*/
+  background-image: url("https://i.ytimg.com/vi/MN4DZmbYKzE/maxresdefault.jpg");
+  background-size: cover;
+
+}
