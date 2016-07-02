@@ -1,0 +1,9 @@
+<h1>Edit the book information</h1>
+<form action="/library/<%= @book['id'] %>" method="post">
+  <input type="text" name="name" placeholder="name" value="<%= @book['name'] %>">
+  <input type="text" name="cover" placeholder="cover" value="<%= @book['cover'] %>">
+  <input type="text" name="author" placeholder="author" value="<%= @book['author'] %>">
+  <input type="text" name="pubyear" placeholder="pubyear" value="<%= @book['pubyear'] %>">
+  <button>Update</button>
+  <img class="editscreen" src="<%= @book['cover'] %>">
+</form>

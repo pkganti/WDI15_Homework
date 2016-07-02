@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+  background-image: url("http://img08.deviantart.net/ec96/i/2012/257/d/8/public_library_background_wip_by_shapeshifter95-d5epqng.jpg");
+  background-size: cover;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.homepage {
+  text-align: center;
+  color: purple;
+  text-shadow: 2px 2px #ff0000;
+  font-family: 'Pacifico', cursive;
+}
+
+.bookdetail {
+  text-align: center;
+
+}
+
+#searchfield {
+  height: 30px;
+  width: 200px;
+}
+
+#searchbutton {
+  height: 30px;
+  width: 60px;
+}
+
+nav {
+  text-align: right;
+  padding: 5px;
+}
+
+a {
+  padding: 5px;
+  display: inline-block;
+}
+
+#indexheading {
+  text-align: center;
+  color: purple;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.indexlist {
+  display: grid;
+}
+
+img.poster {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 1em;
+}
+
+img.indeximg {
+  width: 100px;
+  height: 100px;
+  border-radius: 1em;
+}
+
+img.editscreen {
+  width: 100px;
+  height: 100px;
+}

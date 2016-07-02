@@ -1,0 +1,10 @@
+<h1 id="indexheading">Books in Store</h1>
+<% @books.each do |l| %>
+<p class="indexlist">
+  <a href="/library/<%= l['id']%>">
+    <img class="indeximg "src="<%= l['cover'] %>">
+    <!-- <%= l['name'] %> -->
+  </a>
+</p>
+<!-- <img class="indeximg "src="<%= l['cover'] %>"> -->
+<% end %>

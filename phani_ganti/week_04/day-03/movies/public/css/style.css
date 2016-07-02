@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+  background-image: url("https://cdn.vectorstock.com/i/composite/00,24/cinema-vector-990024.jpg");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+img {
+  border-radius: 1em;
+  height: 200px;
+  width: 200px;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+h2,h3 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  text-shadow: 2px 2px yellow;
+
+}
+
+input {
+  height: 35px;
+  width: 100px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+}
+
+a {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+  color: black
+}

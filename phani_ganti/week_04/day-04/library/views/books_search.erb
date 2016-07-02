@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+<% @mybooks.each do |l| %>
+<p>
+  <a href="/library/<%= l['id']%>">
+    <%= l['name'] %>
+  </a>
+</p>
+<img class="indeximg "src="<%= l['cover'] %>">
+<% end %>

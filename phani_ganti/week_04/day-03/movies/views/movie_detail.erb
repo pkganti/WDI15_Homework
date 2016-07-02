@@ -1,0 +1,13 @@
+<% if @poster %>
+  <p><strong>Movie name:</strong> <%= @title %></p>
+  <p><strong>Director:</strong> <%= @director %></p>
+  <p><strong>Genre: </strong><%= @genre %></p>
+  <p><strong>Plot:</strong> <%= @plot %></p>
+  <p><strong>Rating:</strong> <%= @rating %></p>
+  <img src="<%= @poster %>"></img>
+<% end %>
+
+<form action="/movieinfo" method="get">
+  <input type="text" name="movietitle" placeholder="Enter the movie title Jaws, Titanic, Aliens">
+  <button>Go</button>
+</form>

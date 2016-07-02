@@ -1,0 +1,9 @@
+<div class="bookdetail">
+<h1>Name: <%= @book['name'] %></h1>
+<h2>Author: <%= @book['author'] %></h2>
+<img class="poster" src="<%= @book['cover'] %>">
+<div class="actions">
+  <a href="/library/<%= @book['id'] %>/edit">Edit</a>
+  <a href="/library/<%= @book['id'] %>/delete">Delete</a>
+</div>
+</div>
