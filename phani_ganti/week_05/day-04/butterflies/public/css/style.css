@@ -1,0 +1,23 @@
+.container {
+  max-width: 960px;
+  margin: 0, auto;
+  position: relative;
+}
+
+body {
+  background-color: purple;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  text-align: right;
+}
+
+img.feature {
+  max-width: 100%;
+  border-radius: 1em;
+}

@@ -1,0 +1,31 @@
+<%= form_for @book do |f| %>
+<fieldset>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</fieldset>
+<fieldset>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+</fieldset>
+<fieldset>
+  <%= f.label :image %>
+  <%= f.url_field :image %>
+</fieldset>
+<fieldset>
+  <%= f.label :classification %>
+  <%= f.text_field :classification %>
+</fieldset>
+<fieldset>
+  <%= f.label :PublishedYear %>
+  <%= f.text_field :pubyear %>
+</fieldset>
+<fieldset>
+  <%= f.label :awards %>
+  <%= f.text_field :awards %>
+</fieldset>
+<fieldset>
+  <%= f.label :author_id %>
+  <%= f.select :author_id, Author.pluck(:name, :id), :include_blank => true %>
+</fieldset>
+<%= f.submit %>
+<% end %>

@@ -1,0 +1,18 @@
+<h1><%= @author.name %></h1>
+<%= image_tag @author.image, :class => 'feature' %>
+<ul>
+  <li>Date Of Birth: <%= @author.dob.strftime '%A %b %d, %Y' if @author.dob %></li>
+  <li>Publications: <%= @author.publications %></li>
+  <li>Best Sellers: <%= @author.bestsellers %></li>
+  <li>Awards: <%= @author.awards %></li>
+</ul>
+
+<% @author.books.each do |book| %>
+<%= link_to image_tag(book.image, :class => :thumb), book %>
+<% end %>
+
+
+<div class="controls">
+  <%= link_to "Edit Author", edit_author_path(@author) %>
+  <%= link_to "Delete Author", @author, :method => :delete, :data => { :confirm => "Are your sure?"}  %>
+</div>

@@ -1,0 +1,27 @@
+<%= form_for @author do |f| %>
+<fieldset>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</fieldset>
+<fieldset>
+  <%= f.label :dob, 'Date Of Birth' %>
+  <%= f.text_field :dob, :placeholder => '1970-1-25', :required => true %>
+</fieldset>
+<fieldset>
+  <%= f.label :publications %>
+  <%= f.text_field :publications %>
+</fieldset>
+<fieldset>
+  <%= f.label :awards %>
+  <%= f.text_field :awards %>
+</fieldset>
+<fieldset>
+  <%= f.label :bestsellers %>
+  <%= f.text_field :bestsellers %>
+</fieldset>
+<fieldset>
+  <%= f.label :image %>
+  <%= f.url_field :image %>
+</fieldset>
+<%= f.submit %>
+<% end %>
